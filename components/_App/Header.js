@@ -14,10 +14,10 @@ function Header() {
   function isActive(route) {
     return route === router.pathname;
   }
-  const user = true;
+  const user = false;
 
   return (
-    <Menu id="menu" fluid inverted>
+    <Menu stackable fluid id="menu" inverted>
       <Container text>
 
       <Link href="/">
@@ -27,7 +27,7 @@ function Header() {
           src="/static/logo.svg"
           style={{ marginRight: '1em'}}
         />
-        ReactReserve
+        Topsellor
         </Menu.Item>
       </Link>
 
